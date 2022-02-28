@@ -1,6 +1,6 @@
 // setTimeout( () => { // Callback Function anônima
 //     console.log('Opa, sou a callback sendo executada.')
-//     }, 5000
+//     }, 5000 
 // )
 
 // let meuCallback = (  ) => { // Callback function definida
@@ -19,3 +19,4 @@ console.log(calculadora(10, 5, somar))
 console.log(calculadora(10, 5, subtrair))
 console.log(calculadora(5, 10, () => 5 + 10))
 console.log(calculadora(5, 10, (numeroA, numeroB) => numeroA + numeroB))
+
