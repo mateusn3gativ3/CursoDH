@@ -8,23 +8,120 @@ body {
 .header-1 {
   position: absolute;
   width: 100%;
-  height: 10%;
+  height: 6.3rem;
 
   background: #ffffff;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
 }
-.logo {
-  position: relative;
-  width: 63px;
-  height: 25px;
-  float: left;
-  padding: 16;
+#lovt {
+  position: absolute;
+  width: 93px;
+  height: 45px;
 
   font-family: Ropa Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
-  line-height: 32px;
+  font-size: 4rem;
+  line-height: 1rem;
+  padding-left: 5rem;
 
   color: #777777;
+}
+#slogam {
+  position: absolute;
+  width: 75px;
+  height: 45px;
+
+  font-family: Ropa Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  padding-left: 13.5rem;
+  color: #aaaaaa;
+}
+#vector {
+  width: 30px;
+  height: 25px;
+  margin-left: 94%;
+  margin-top: 2.2rem;
+}
+section.primeiro-bloco {
+  position: absolute;
+  width: 100%;
+  padding-top: 10rem;
+}
+#design {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+button:hover,
+button:focus {
+  background: black;
+  transform: translateX(10px) scale(1.2);
+}
+button#voltar {
+  top: -18rem;
+  opacity: 54%;
+  left: 7rem;
+  border-radius: 2rem;
+  width: 4rem;
+  height: 4rem;
+  position: relative;
+  border: 0;
+  background: rgba(141, 141, 141, 0.62);
+}
+button#avancar {
+  top: -18rem;
+  opacity: 54%;
+  float: right;
+  right: 7rem;
+  border-radius: 2rem;
+  width: 4rem;
+  height: 4rem;
+  position: relative;
+  border: 0;
+  background: rgba(141, 141, 141, 0.62);
+}
+section.segundo-bloco {
+  position: absolute;
+  width: 100%;
+  padding-top: 48rem;
+}
+article#destaque-1 {
+  margin-left: 4.4rem;
+  width: 45%;
+}
+h3#status-1 {
+  margin-top: -2.4rem;
+  margin-left: 12rem;
+}
+img#img-1 {
+  width: 80%;
+}
+h3#status-1 {
+  display: flex;
+  align-items: center;
+  font-family: RopaSans;
+  font-style: normal;
+  font-weight: normal;
+  margin-top: -2.4rem;
+  float: right;
+  margin-right: 9rem;
+  border-radius: 1rem;
+  border: solid;
+  width: 5.5rem;
+  height: 1.5rem;
+  text-align: center;
+  background-color: #51d275;
+  border: 0;
+}
+p#descricao-1 {
+  width: 80%;
+}
+article#destaque-2 {
+  width: 45%;
+  float: right;
 }
